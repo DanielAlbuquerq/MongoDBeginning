@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 import Blog from "./model/Blog.js";
 import User from "./model/User.js";
 
-mongoose.connect("mongodb+srv://myFirstMongoDB:tempero321@cluster0.gpcubho.mongodb.net/?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://myFirstMongoDB:<password>@cluster0.gpcubho.mongodb.net/?retryWrites=true&w=majority");
 
 const user = await User.create({
     name: "Jesse Hall",
